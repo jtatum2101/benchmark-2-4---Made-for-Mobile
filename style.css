@@ -48,7 +48,7 @@ html {
   @media (min-width: 1200px) {
     .grid-container, .grid-container-sm, .grid-container-md, .grid-container-lg, .grid-container-xl {
       max-width: 1140px;
-      grid-template-columns: 1140px;
+      grid-template-columns: minmax(1140px);
       grid-template-rows: 940px 940px 940px 940px;
     }
   }
