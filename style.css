@@ -24,24 +24,32 @@ html {
   @media (min-width: 576px) {
     .grid-container, .grindcontainer-sm {
       max-width: 540px;
+      grid-template-columns: auto auto auto auto;
+    grid-template-rows: 340px 340px 340px 340px;
     }
   }
   
   @media (min-width: 768px) {
     .grid-container, .grid-container-sm, .grid-container-md {
       max-width: 720px;
+      grid-template-columns: auto auto auto auto;
+    grid-template-rows: 520px 520px 520px 520px;
     }
   }
   
   @media (min-width: 992px) {
     .grid-container, .grid-container-sm, .grid-container-md, .grid-container-lg {
       max-width: 960px;
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: 760px 760px 760px 760px;
     }
   }
   
   @media (min-width: 1200px) {
     .grid-container, .grid-container-sm, .grid-container-md, .grid-container-lg, .grid-container-xl {
       max-width: 1140px;
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: 940px 940px 940px 940px;
     }
   }
   
