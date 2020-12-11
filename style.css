@@ -32,7 +32,7 @@ html {
   @media (min-width: 768px) {
     .grid-container, .grid-container-sm, .grid-container-md {
       max-width: 720px;
-      grid-template-columns: minmax(720px;);
+      grid-template-columns: minmax(720px);
     grid-template-rows: 520px 520px 520px 520px;
     }
   }
