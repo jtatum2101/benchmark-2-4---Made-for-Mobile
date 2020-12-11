@@ -22,25 +22,25 @@ html {
   }
 
   @media (min-width: 576px) {
-    .container, .container-sm {
+    .grid-container, .grindcontainer-sm {
       max-width: 540px;
     }
   }
   
   @media (min-width: 768px) {
-    .container, .container-sm, .container-md {
+    .grid-container, .grid-container-sm, .grid-container-md {
       max-width: 720px;
     }
   }
   
   @media (min-width: 992px) {
-    .container, .container-sm, .container-md, .container-lg {
+    .grid-container, .grid-container-sm, .grid-container-md, .grid-container-lg {
       max-width: 960px;
     }
   }
   
   @media (min-width: 1200px) {
-    .container, .container-sm, .container-md, .container-lg, .container-xl {
+    .grid-container, .grid-container-sm, .grid-container-md, .grid-container-lg, .grid-container-xl {
       max-width: 1140px;
     }
   }
